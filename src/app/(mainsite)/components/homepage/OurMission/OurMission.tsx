@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function OurMission() {
   return (
     <section className={styles.ourMission} id="ourMission">
-        <Image className={styles.bgImg} src="/img/our_mission.png" width={1024} height={512} alt="Photo of staff" />
+        <Image className={styles.bgImg} src="/img/our_mission.webp" width={1024} height={512} alt="Photo of staff" />
 
         <img src="./icons/cross.svg" aria-hidden className={styles.cross} />
         

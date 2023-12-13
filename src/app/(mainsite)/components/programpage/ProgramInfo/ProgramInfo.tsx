@@ -12,7 +12,7 @@ export default function ProgramInfo() {
         </p>
 
         <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className="shader"></div>
-        <Image className="bg-img" src="/img/community.jpg" width={1280} height={720} alt="Image of community" />
+        <Image className="bg-img" src="/img/community.webp" width={1280} height={720} alt="Image of community" />
     </section>
   )
 }

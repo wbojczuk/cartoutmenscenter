@@ -15,7 +15,7 @@ export default function Support() {
 
 
           <div style={{backgroundColor: "rgba(255,255,255,0.7)"}} className="shader"></div>
-          <Image className="bg-img" style={{objectPosition: "center 20%"}} src="/img/community.jpg" width={1280} height={720} alt="Image of community" />
+          <Image className="bg-img" style={{objectPosition: "center 20%"}} src="/img/community.webp" width={1280} height={720} alt="Image of community" />
         </div>
     </section>
   )

@@ -35,7 +35,7 @@ Cartersville, GA 30121</div>
         
         </div>
         <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className="shader"></div>
-        <Image className="bg-img" src="/img/holding_phone.jpg" width={1280} height={720} alt="Image of phone" />
+        <Image className="bg-img" src="/img/holding_phone.webp" width={1280} height={720} alt="Image of phone" />
     </section>
   )
 }
