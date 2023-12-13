@@ -1,0 +1,92 @@
+.programInfo{
+    padding: 8vw 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.programInfo h4{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.programInfo h1{
+    color: var(--primary-text-color);
+    font-size: 5rem;
+    font-family: var(--secondary-font);
+    line-height: 100%;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    position: relative;
+}
+
+.programInfo h1::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 6px;
+    left: 10%;
+    bottom: 0;
+    background-color: var(--primary-color);
+}
+
+.programInfo p{
+    margin-top: 1vw;
+    width: 35%;
+    font-size: 1.2rem;
+    line-height: 250%;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+    .programInfo p{
+        margin-top: 1.5vw;
+        width: 45%;
+    }    
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .programInfo{
+        min-height: 100vw;
+        padding: 9vw 0;
+    }
+    .programInfo h1{
+        padding-bottom: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    .programInfo h1::after{
+        width: 80%;
+        bottom: -6px;
+    }
+    
+    .programInfo p{
+        margin-top: 2vw;
+        width: 60%;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .programInfo{
+        min-height: 120vw;
+        padding: 15vw 0;
+    }
+    .programInfo h1{
+        padding-bottom: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    .programInfo h1::after{
+        width: 80%;
+        bottom: -6px;
+    }
+    
+    .programInfo p{
+        margin-top: 4vw;
+        width: 80%;
+    }
+}

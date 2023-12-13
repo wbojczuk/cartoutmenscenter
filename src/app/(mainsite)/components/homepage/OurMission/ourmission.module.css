@@ -1,0 +1,134 @@
+.ourMission{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8vw 4vw;
+}
+
+.bgImg{
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: -8px 8px 8px rgba(0,0,0,0.3);
+}
+
+.content{
+    margin-left: 4vw;
+}
+
+.cross{
+    position: absolute;
+    right: 2vw;
+    object-fit: contain;
+    height: 90%;
+    top: 5%;
+    width: 50vw;
+    z-index: -1;
+    opacity: 0.05;
+    object-position: right center;
+}
+
+.content h1{
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    position: relative;
+}
+
+.content h1::after{
+    position: absolute;
+    content: "";
+    top: 105%;
+    left:0;
+    background-color: var(--primary-color);
+    height: 4px;
+    width: 40%;
+}
+
+.content p{
+    width: 30vw;
+    font-size: 1.2rem;
+    line-height: 250%;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+ 
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .ourMission{
+        padding: 9vw 5vw;
+    }
+    
+    .bgImg{
+        height: 40vw;
+        width: 40vw;
+    }
+    
+    .content{
+        margin-left: 5vw;
+    }
+    
+    .cross{
+        right: 0;
+        top: 5%;
+        width: 90vw;
+    }
+    
+    .content h1{
+        margin-bottom: 3vw;
+    }
+    
+    
+    .content p{
+        width: 45vw;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .ourMission{
+        padding: 9vw 5vw;
+        flex-direction: column;
+    }
+    
+    .bgImg{
+        height: 60vw;
+        width: 60vw;
+    }
+    
+    .content{
+        margin-left: 0;
+    }
+    
+    .cross{
+        right: 0;
+        top: initial;
+        bottom: 5%;
+        object-position: center bottom;
+        width: 90vw;
+    }
+    
+    .content h1{
+        margin-bottom: 3vw;
+        margin-top: 4vw;
+    }
+    .content h1::after{
+        top: 105%;
+        left:0;
+        background-color: var(--primary-color);
+        height: 4px;
+        width: 80%;
+    }
+    
+    
+    .content p{
+        margin-top: 6vw;
+        width: 80vw;
+    }
+}

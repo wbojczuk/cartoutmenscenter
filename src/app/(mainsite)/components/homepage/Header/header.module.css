@@ -1,0 +1,83 @@
+.header{
+    min-height: 90vh;
+    position: relative;
+    z-index: 10;
+    color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.header h1{
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 5rem;
+    margin-bottom: 2vw;
+}
+.header h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 4vw;
+    width: 40%;
+}
+
+.downArrow{
+    position: absolute;
+    width: 3vw;
+    aspect-ratio: 1/1;
+    background-image: url("/icons/down-caret.svg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 1vw;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+ 
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .header h1{
+        font-size: 4.5rem;
+        width: 95%;
+        margin-bottom: 3vw;
+    }
+    .header h2{
+        margin-bottom: 5vw;
+        width: 50%;
+    }
+    .downArrow{
+        width: 6vw;
+        bottom: 2vw;
+    }
+    .header{
+        min-height: 120vw;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .header{
+        min-height: 150vw;
+    }
+    .header h1{
+        font-size: 4.5rem;
+        width: 95%;
+        margin-bottom: 6vw;
+        line-height: 120%;
+    }
+    .header h2{
+        margin-bottom: 10vw;
+        width: 75%;
+    }
+    .downArrow{
+        width: 10vw;
+        bottom: 4vw;
+    }
+}

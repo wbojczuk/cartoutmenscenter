@@ -1,0 +1,166 @@
+.contactContent{
+    position: relative;
+    padding: 4vw 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contactContent h1{
+    /* margin-left: 10vw; */
+    color: var(--primary-text-color);
+    font-size: 5rem;
+    font-family: var(--secondary-font);
+    line-height: 100%;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    display: inline-block;
+    position: relative;
+}
+
+.contactContent h1::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 6px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--primary-color);
+}
+
+.content{
+    display: flex;
+    margin: 2vw 0;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20vw;
+}
+
+.contactBar{
+    /* margin-left: 10vw; */
+    background-color: #fdfdfdd2;
+    border-radius: 10px;
+    padding: 1vw 2vw;
+}
+
+.contactItem{
+    margin: 1.5vw 0.5vw;
+}
+
+.itemTitle{
+    display: block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    position: relative;
+}
+
+.itemTitle::after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    left: -0.5vw;
+    top:0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+.itemDesc{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+    color: var(--primary-text-color);
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .contactContent{
+        padding: 10vw 0;
+        justify-content: center;
+    }
+    
+    .contactContent h1{
+        padding-bottom: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    .content{
+        display: flex;
+        margin: 2vw 0;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 6vw;
+    }
+    
+    .contactBar{
+        border-radius: 10px;
+        padding: 4vw 5vw;
+    }
+    
+    .contactItem{
+        margin: 2.5vw 0.5vw;
+    }
+    
+    .itemTitle{
+        font-size: 1.7rem;
+    }
+    
+    .itemTitle::after{
+        left: -1.5vw;
+    }
+    
+    .itemDesc{
+        margin-top: 0.4rem;
+        font-size: 1.2rem;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+.contactContent{
+        padding: 15vw 0;
+        justify-content: center;
+    }
+    
+    .contactContent h1{
+        padding-bottom: 4vw;
+        margin-bottom: 4vw;
+        text-align: center;
+        display: block;
+    }
+
+    .contactContent h1::after{
+        left: 10%;
+    }
+    
+    .content{
+        margin: 10vw 0;
+        justify-content:center;
+        flex-direction: column;
+        gap: 0vw;
+    }
+    
+    .contactBar{
+        border-radius: 10px;
+        padding: 6vw 10vw;
+    }
+    
+    .contactItem{
+        margin: 4vw 1vw;
+    }
+    
+    .itemTitle{
+        font-size: 2rem;
+    }
+    
+    .itemTitle::after{
+        left: -3vw;
+    }
+    
+    .itemDesc{
+        margin-top: 0.8rem;
+        font-size: 1.4rem;
+        line-height: 140%;
+    }
+}
