@@ -55,7 +55,10 @@
 
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
- 
+    .bgImg{
+        height: 35vw;
+        width: 20vw;
+    }
 }
 
 /* TABLET STYLES */
