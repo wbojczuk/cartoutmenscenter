@@ -8,10 +8,9 @@
 
 .bgImg{
     height: 25vw;
-    width: 25vw;
-    object-fit: cover;
-    object-position: center;
-    box-shadow: -8px 8px 8px rgba(0,0,0,0.3);
+    width: 15vw;
+    object-fit: contain;
+    object-position: center center;
 }
 
 .content{
@@ -66,8 +65,8 @@
     }
     
     .bgImg{
-        height: 40vw;
-        width: 40vw;
+        height: 45vw;
+        width: 35vw;
     }
     
     .content{
@@ -98,8 +97,8 @@
     }
     
     .bgImg{
-        height: 60vw;
-        width: 60vw;
+        height: 70vw;
+        width: 55vw;
     }
     
     .content{
