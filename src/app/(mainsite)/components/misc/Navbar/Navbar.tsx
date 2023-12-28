@@ -142,7 +142,7 @@ export default function Navbar() {
           ref={staffRef}
           />
 
-          <a target="_blank" href="https://paypal.com" className={styles.cta}>
+          <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=cartersvilleoutreachmenscenter@gmail.com&lc=US&no_note=0&item_name=Thank+you+for+your+donation!&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" className={styles.cta}>
             <InlineIcon icon={"mdi:heart"} width="50px" height="50px" />
             <span>Donate</span>
           </a>

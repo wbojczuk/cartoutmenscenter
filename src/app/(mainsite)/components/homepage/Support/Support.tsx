@@ -11,7 +11,7 @@ export default function Support() {
         <div className={styles.content}>
           <p>Your support enables us to create a godly environment where individuals seeking positive change find it in the transformative power of God. With your support, we can provide essential resources, counseling, and spiritual guidance, paving the way for men to rebuild their lives with faith as their cornerstone. Your donation isn't just financial; it's a contribution to the lasting transformation of individuals on the path to a brighter future.</p>
 
-          <a href="https://paypal.com" target="_blank" className="main-cta"><InlineIcon style={{scale: 0.6}} icon="mdi:heart"/> Donate</a>
+          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=cartersvilleoutreachmenscenter@gmail.com&lc=US&no_note=0&item_name=Thank+you+for+your+donation!&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" target="_blank" className="main-cta"><InlineIcon style={{scale: 0.6}} icon="mdi:heart"/> Donate</a>
 
 
           <div style={{backgroundColor: "rgba(255,255,255,0.7)"}} className="shader"></div>
