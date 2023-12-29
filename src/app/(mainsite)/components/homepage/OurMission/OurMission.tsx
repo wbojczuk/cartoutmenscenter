@@ -11,7 +11,7 @@ export default function OurMission() {
         <div className={styles.content}>
             <h1>Our Mission</h1>
 
-            <p>To help guide these men into becoming productive members of the community and helping establish guidelines to help them manage their lives, homes, and everyday relationships that are built on a foundation of biblical principles and on the Lord Jesus Christ. Our desire is to help these men with their mental, physical and spiritual needs, by providing them the opportunity to change their lives by having a personal relationship with Jesus Christ as their Lord and Savior.</p>
+            <p>To help men who are struggling with addictions become more productive members of the community and help them learn how to manange their lives, homes, and everyday relationships. We have established guidelines that are built on Biblical principles and the Lord Jesus Christ. Our desire is to help them with their mental, physical and spiritual needs, by providing an opportunity to change their lives through a personal relationship with Jesus Christ.</p>
         </div>
     </section>
   )
