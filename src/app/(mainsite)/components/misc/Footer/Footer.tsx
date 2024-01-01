@@ -2,9 +2,11 @@
 
 import styles from "./footer.module.css"
 import Link from "next/link"
+import FooterTag from "../FooterTag/FooterTag"
 
 export default function Footer() {
   return (
+    <>
     <footer className={styles.footer}>
       <aside>
         <h1>Cartersville Outreach Men's Center</h1>
@@ -31,5 +33,7 @@ Cartersville, GA 30121</h2>
           </ul>
         </aside>
     </footer>
+    <FooterTag />
+    </>
   )
 }
