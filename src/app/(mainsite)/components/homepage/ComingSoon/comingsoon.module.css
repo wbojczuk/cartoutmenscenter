@@ -1,0 +1,23 @@
+.comingSoon{
+    text-align: center;
+    background-color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 1vw 0;
+    color: var(--secondary-text-color);
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .comingSoon{
+        padding: 2vw 0;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .comingSoon{
+        padding: 4vw 0;
+    }
+}
