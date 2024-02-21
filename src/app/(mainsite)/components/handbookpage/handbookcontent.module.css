@@ -1,0 +1,97 @@
+.section{
+    position: relative;
+    padding: 4vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section h1{
+    /* margin-left: 10vw; */
+    color: var(--primary-text-color);
+    font-size: 5rem;
+    font-family: var(--secondary-font);
+    line-height: 100%;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+.section h1::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 6px;
+    left: 10%;
+    bottom: 0;
+    /* z-index: 0; */
+    background-color: var(--primary-color);
+}
+
+.section p{
+    margin-top: 1vw;
+    width: 35%;
+    font-size: 1.2rem;
+    line-height: 150%;
+    text-align: center;
+}
+
+.downloadWrapper{
+    padding: 2vw 0;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+    .section p{
+        margin-top: 1.5vw;
+        width: 45%;
+    }    
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .section{
+        padding: 10vw 0;
+        justify-content: center;
+    }
+    
+    .section h1{
+        padding-bottom: 2vw;
+        margin-bottom: 2vw;
+    }
+    .section p{
+        margin-top: 2vw;
+        width: 60%;
+    }
+    .downloadWrapper{
+        padding: 4vw 0;
+    }
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .section{
+            padding: 15vw 0;
+            justify-content: center;
+        }
+        
+    .section h1{
+        padding-bottom: 4vw;
+        margin-bottom: 4vw;
+        text-align: center;
+        display: block;
+    }
+
+    .section p{
+        margin-top: 4vw;
+        width: 80%;
+    }
+
+    .downloadWrapper{
+        padding: 6vw 0;
+    }
+}

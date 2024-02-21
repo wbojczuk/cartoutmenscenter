@@ -10,8 +10,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <aside>
         <h1>Cartersville Outreach Men's Center</h1>
-        <h2>73 Maple Rdg Dr SE, <br />
-Cartersville, GA 30121</h2>
+        <h2>PO Box 200005 <br />
+        Cartersville GA 30120</h2>
       </aside>
 
         <aside>

@@ -22,6 +22,7 @@ export default function Navbar() {
   const contactRef: any = useRef()
   const staffRef: any = useRef()
   const applicationRef: any = useRef()
+  const handbookRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -48,7 +49,11 @@ export default function Navbar() {
     {
       triggers: ["/application"],
       ref: applicationRef
-    }
+    },
+    {
+      triggers: ["/handbook"],
+      ref: handbookRef
+    },
     
   ]
 
@@ -151,6 +156,12 @@ export default function Navbar() {
           url="/application"
           iconifyIcon="mdi:email"
           ref={applicationRef}
+          />
+          <NavOption
+          title="Handbook"
+          url="/handbook"
+          iconifyIcon="mdi:email"
+          ref={handbookRef}
           />
 
           <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=cartersvilleoutreachmenscenter@gmail.com&lc=US&no_note=0&item_name=Thank+you+for+your+donation!&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" className={styles.cta}>
