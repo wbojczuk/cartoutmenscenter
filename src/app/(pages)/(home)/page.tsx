@@ -3,12 +3,13 @@ import OurMission from "@/app/(mainsite)/components/homepage/OurMission/OurMissi
 import Support from "@/app/(mainsite)/components/homepage/Support/Support"
 import MediaCoverage from "@/app/(mainsite)/components/homepage/MediaCoverage/MediaCoverage"
 import ComingSoon from "@/app/(mainsite)/components/homepage/ComingSoon/ComingSoon"
+import ComeSupport from "@/app/(mainsite)/components/homepage/ComeSupport/ComeSupport"
 
 export default function Home() {
   return (
     <>
       <Header />
-      <ComingSoon />
+      <ComeSupport />
       <OurMission />
       <Support />
       <MediaCoverage />

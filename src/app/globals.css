@@ -40,6 +40,7 @@ body::-webkit-scrollbar-track {
 
   --primary-text-color: black;
   --secondary-text-color: white;
+  --section-padding-top: 4vw;
 }
 
 body{
@@ -135,11 +136,11 @@ body{
 }
 
 /* SMALL LAPTOP STYLES */
-/* @media only screen and (min-width: 991px) and (max-width: 1400px){
+@media only screen and (min-width: 991px) and (max-width: 1400px){
   :root{
-      font-size: 14px;
+    --section-padding-top: 5vw;
   } 
-}*/
+}
 
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
@@ -148,6 +149,7 @@ body{
   }
   :root{
       font-size: 12px;
+      --section-padding-top: 8vw;
   }
   .tablet{
     display: initial !important;
@@ -171,6 +173,7 @@ body{
   }
   :root{
       font-size: 10px;
+      --section-padding-top: 12vw;
   }
   .mobile{
     display: initial !important;

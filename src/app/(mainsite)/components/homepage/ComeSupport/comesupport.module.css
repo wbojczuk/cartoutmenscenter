@@ -1,0 +1,35 @@
+.comeSupport{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.comeSupport h2{
+    text-align: center;
+    margin-bottom: 2vw;
+    padding: 0 25%;
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    color: white;
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .comeSupport h2{
+        margin-bottom: 3vw;
+        padding: 0 15%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .comeSupport h2{
+        margin-bottom: 6vw;
+        padding: 0 5%;
+    }
+}
