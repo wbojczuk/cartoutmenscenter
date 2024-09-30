@@ -1,6 +1,9 @@
 .comeSupport{
     position: relative;
-    padding: var(--section-padding-top) 0;
+    padding: calc(var(--section-padding-top) * 0.5) 0;
+    display: inline-block;
+    width: 90%;
+    margin: 0 5%;
 }
 
 .comeSupport h2{
@@ -28,6 +31,10 @@
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
+    .comeSupport{
+        width: 100%;
+        margin: 0;
+    }
     .comeSupport h2{
         margin-bottom: 6vw;
         padding: 0 5%;
