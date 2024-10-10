@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <ComeSupport />
+      {/* <ComeSupport /> */}
       <OurMission />
       <Support />
       <MediaCoverage />
