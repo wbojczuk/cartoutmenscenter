@@ -14,7 +14,12 @@ export default function Header() {
       <h1>Renewing Lives Through Faith</h1>
       <h2>God-Centered Men's Transitional Center Transforming Lives</h2>
 
+      <div style={{gap: "2rem"}} className="center">
       <Link href="/program" className="main-cta">Learn More <InlineIcon icon="basil:arrow-right-outline"/> </Link>
+
+      <Link href="/testimonies" className="main-cta">Testimonies <InlineIcon icon="basil:arrow-right-outline"/> </Link>
+
+      </div>
         
       <a href="#ourMission" className={styles.downArrow}></a>
 

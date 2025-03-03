@@ -21,6 +21,7 @@ export default function Navbar() {
   const programRef: any = useRef()
   const contactRef: any = useRef()
   const staffRef: any = useRef()
+  const testimoniesRef: any = useRef()
   const applicationRef: any = useRef()
   const handbookRef: any = useRef()
 
@@ -37,6 +38,10 @@ export default function Navbar() {
     {
       triggers: ["/contact"],
       ref: contactRef
+    },
+    {
+      triggers: ["/testimonies"],
+      ref: testimoniesRef
     },
     {
       triggers: ["/program"],
@@ -130,6 +135,13 @@ export default function Navbar() {
           url="/"
           iconifyIcon="mdi:home"
           ref={homeRef}
+          />
+
+          <NavOption
+          title="Testimonies"
+          url="/testimonies"
+          iconifyIcon="mdi:information"
+          ref={testimoniesRef}
           />
 
           <NavOption
