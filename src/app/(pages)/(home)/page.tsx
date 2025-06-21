@@ -14,6 +14,10 @@ export default function Home() {
       <ComeSupport />
       <Chamber />
       <Photo />
+      
+      <Chamber />
+      <Photo />
+      {/* <ComeSupport /> */}
       <OurMission />
       <Support />
       <MediaCoverage />
