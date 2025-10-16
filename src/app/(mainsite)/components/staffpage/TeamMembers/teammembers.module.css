@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     width: 28%;
-    margin: 2vw 2.5%;
+    margin: 2vw 20%;
     color: var(--main-color);
     white-space: pre-wrap;
 }

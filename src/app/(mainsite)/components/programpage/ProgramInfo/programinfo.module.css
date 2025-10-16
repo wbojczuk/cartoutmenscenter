@@ -14,7 +14,7 @@
 
 .programInfo h1{
     color: var(--primary-text-color);
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: var(--secondary-font);
     line-height: 100%;
     padding-bottom: 1vw;
@@ -55,6 +55,7 @@
     }
     .programInfo h1{
         padding-bottom: 2vw;
+        font-size: 3.5rem;
         margin-bottom: 2vw;
     }
     
@@ -78,6 +79,7 @@
     .programInfo h1{
         padding-bottom: 4vw;
         margin-bottom: 4vw;
+        font-size: 3rem;
     }
     
     .programInfo h1::after{

@@ -1,6 +1,9 @@
 .chamber{
     position: relative;
     padding: calc(var(--section-padding-top) * .5) 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 .chamber img{
@@ -18,11 +21,17 @@
     .chamber img{
         width: 45%;
     }
+    .chamber{
+        justify-content: center;
+    }
 }
 
  /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
     .chamber img{
         width: 65%;
+    }
+    .chamber{
+        justify-content: center;
     }
 }

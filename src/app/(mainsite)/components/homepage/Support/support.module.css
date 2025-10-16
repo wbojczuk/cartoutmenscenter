@@ -28,6 +28,11 @@
     padding-bottom: 2vw;
 }
 
+.content a img{
+    width: 50%;
+    margin: 0 25%;
+}
+
 /* SMALL LAPTOP STYLES */
 @media only screen and (min-width: 991px) and (max-width: 1400px){
     

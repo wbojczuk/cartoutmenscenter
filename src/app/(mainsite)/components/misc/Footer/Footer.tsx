@@ -3,6 +3,7 @@
 import styles from "./footer.module.css"
 import Link from "next/link"
 import FooterTag from "../FooterTag/FooterTag"
+import Chamber from "../../homepage/Chamber/Chamber"
 
 export default function Footer() {
   return (
@@ -31,6 +32,9 @@ export default function Footer() {
             <a href="https://cartersvilleoutreachinternational.org" target="_blank">International</a>
             <a href="https://cartersvilleoutreachwomenscenter.org" target="_blank">Women's Center</a>
           </ul>
+        </aside>
+        <aside>
+          <Chamber />
         </aside>
     </footer>
     <FooterTag />

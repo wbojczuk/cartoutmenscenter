@@ -12,10 +12,8 @@ export default function Home() {
     <>
       <Header />
       <ComeSupport />
-      <Chamber />
       <Photo />
       <OurMission />
-      <Support />
       <MediaCoverage />
     </>
   )
