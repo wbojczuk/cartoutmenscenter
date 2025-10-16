@@ -18,14 +18,14 @@ const teamData: teamMemberType[] = [
         description: `For over 30 years I have struggled with alcohol and drug addiction. I could never get free. I was in and out of jail most of my life. I have been to prison 3 times. During my last prison sentence, I cried out to God because I was broken from the loss of my first child. Jesus heard my cry. I made a promise to God; If he would heal my broken heart and reveal the truth to me about my son, I would read His word and I would do what it says. Let's just say, I got a hold of the word (Jesus), and the word got a hold of me. My life has never been the same since. I go into Bartow County Jail and preach to the men and women. I am also an ordained Pastor through Cartersville Outreach Ministries.
         
 Not only has God changed my life, but He has also changed my family's life. Hallelujah! God has blessed me with a beautiful, loving, God-fearing, Jesus loving wife named Kristy Williams. We are excited to see what is ahead.`
-    },
+    }
 
     ,{
         name: "Scotty Buie",
         imgSrc: "/img/pfp.png",
         role: "Volunteer Staff Member",
         description: ``
-    },
+    }
     ,{
         name: "Landon Ferguson",
         imgSrc: "/img/pfp.png",

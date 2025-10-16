@@ -10,8 +10,8 @@ interface mediaType{
 }
 
 interface teamMemberType{
-    imgSrc: string,
-    description: string,
-    role: string,
-    name: string
+    imgSrc?: string,
+    description?: string,
+    role?: string,
+    name?: string
 }
