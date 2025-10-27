@@ -158,7 +158,7 @@ export default function Navbar() {
           ref={contactRef}
           />
           <NavOption
-          title="Staff"
+          title="Leadership"
           url="/staff"
           iconifyIcon="mdi:email"
           ref={staffRef}
@@ -176,7 +176,7 @@ export default function Navbar() {
           ref={handbookRef}
           />
 
-          <Link target="_blank" href="/donate" className={styles.cta}>
+          <Link href="/donate" className={styles.cta}>
             <InlineIcon icon={"mdi:heart"} width="50px" height="50px" />
             <span>Donate</span>
           </Link>

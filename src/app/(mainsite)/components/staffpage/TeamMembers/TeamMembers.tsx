@@ -14,7 +14,7 @@ export default function TeamMembers() {
 
   return (
     <section className={`center ${styles.teamMembersSection}`}>
-        <h4>Our Staff</h4>
+        
         <h1>Leadership</h1>
 
         <div className={styles.teamMembersWrapper}>
