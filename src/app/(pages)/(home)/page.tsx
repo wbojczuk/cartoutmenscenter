@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <ComeSupport />
+      {/* <ComeSupport /> */}
       <Photo />
       <OurMission />
       <MediaCoverage />
