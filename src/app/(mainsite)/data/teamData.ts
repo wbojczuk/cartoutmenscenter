@@ -8,7 +8,7 @@ const teamData: teamMemberType[] = [
     
     {
         name: "Shawn Williams",
-        imgSrc: "https://i.imgur.com/JhDKBy5.jpg",
+        imgSrc: "/img/sean.webp",
         role: "Director",
         description: `I was a full blown drug addict until September 1,2020 when God would change my life forever for His honor and glory. I was not only a drug addict but a drug dealer with multiple prior charges and in and out of jails. I thought I had everything I could want or need to make me happy but inside I was miserable and empty I was missing something and that something was Jesus. On September 1,2020 I was pulled over with multiple kilos of meth in the trunk of a car that would change my life forever facing drug trafficking at the highest tier plus a gun charge what should have been my life as a free man over really became the biggest blessing and showed me what life truly is had God reveal His self to me mightily like never before for the first time I hit my knees in tears of cleansing and purification He was doing a mighty work in me. Though I was facing 35 years it didn't even matter because for the first time in my life I truly had a relationship with God through His Son my Lord and Savior Jesus Christ and a peace came over me that surpassed all understanding. I continued diligently seeking Him through His word and He set me free not only from bondage but showed His mercy and favor in the courts and set this captive free. Free and on fire for Him and His kingdom. Today I am 3 years clean from all drugs and bondages and am being used mightily in the ministry For God our Father's honor and glory.`
     },{
