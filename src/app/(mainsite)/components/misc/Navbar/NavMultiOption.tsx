@@ -50,7 +50,7 @@ interface optionProps {
     //@ts-ignore
     <div ref={servicesRef} className={`${styles.dropdownLink} ${styles.navLink}`}>
               <li ref={listRef} className={`nav-noclose ${styles.dropdownList}`} onClick={toggleActive}>
-                <InlineIcon style={{pointerEvents: "none"}} icon={props.iconifyIcon} width="50px" height="50px" />
+                {/* <InlineIcon style={{pointerEvents: "none"}} icon={props.iconifyIcon} width="50px" height="50px" /> */}
                 <span style={{pointerEvents: "none"}}>{props.title}</span>
                 <InlineIcon style={{pointerEvents: "none"}} icon={"mdi:menu-down"} width="50px" height="50px" />
               </li>

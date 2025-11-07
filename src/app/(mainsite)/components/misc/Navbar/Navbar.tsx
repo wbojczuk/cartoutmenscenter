@@ -137,9 +137,9 @@ export default function Navbar() {
           ref={homeRef}
           />
 
-          <NavOption
+          <NavMultiOption
           title="Testimonies"
-          url="/testimonies"
+         links={[{url:"/testimonies", title: "Graduates"}, {url:"/stafftestimonies", title: "Staff"}]}
           iconifyIcon="mdi:information"
           ref={testimoniesRef}
           />

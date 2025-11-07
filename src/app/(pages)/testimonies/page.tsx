@@ -2,7 +2,7 @@ import Testimonies from "@/app/(mainsite)/components/testimoniespage/Testimonies
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Testimonies"
+    title: "Graduates Testimonies"
 }
 
 export default function TestimoniesPage(){

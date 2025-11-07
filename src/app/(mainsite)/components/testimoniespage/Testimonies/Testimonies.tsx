@@ -4,7 +4,7 @@ export default function Testimonies(){
 return (
  <div className={styles.testimonies}>
 
-    <div className="center"><h1>Testimonies</h1></div>
+    <div className="center"><h1>Graduate Testimonies</h1></div>
 
     <div className={styles.testimony}>
         <img src="/img/joe.webp" aria-hidden />
