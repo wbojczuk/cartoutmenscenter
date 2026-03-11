@@ -7,11 +7,6 @@ const teamData: teamMemberType[] = [
     },
     
     {
-        name: "Shawn Williams",
-        imgSrc: "/img/sean.webp",
-        role: "Director",
-        description: `I first started by meeting Pastor David and Pastor Mishie while incarcerated in Bartow  county jail, the love of Jesus they showed to me led to my decision of making Cartersville  Outreach my home church in 2022. Towards the end of 2022 I became a greeter, where God  moved me in due time to also be used on tithes and offerings, and at the altar as well.  Around November of 2022 I taught my first Friday night bible study. On November 26, 2023  the Lord opened the door for me to step into my calling where I became a licensed minister  through Cartersville Outreach and began to do some Sunday morning bible studies and  well as some Sunday evening services around the beginning of 2024. Febraury 12, 2024  Cartersville Outreach Men’s Centers doors opened where I started out as a part time  employee, soon after that I was brought on full-time, where I was then positioned as  Assistant-Director, then promoted to Director in 2025. Also on January 26, 2025 I became a  Ordained minister through Cartersville Outreach.`
-    },{
         name: "Tommy Williams",
         imgSrc: "/img/tommy_minister.png",
         role: "Sr. Staff Member",
@@ -20,14 +15,14 @@ const teamData: teamMemberType[] = [
 
     ,{
         name: "Scotty Buie",
-        imgSrc: "/img/pfp.png",
-        role: "Volunteer Staff Member",
+        imgSrc: "/img/scottie2.webp",
+        role: "Junior Staff Member",
         description: ``
     }
     ,{
         name: "Landon Ferguson",
-        imgSrc: "/img/pfp.png",
-        role: "",
+        imgSrc: "/img/landon.webp",
+        role: "Junior Staff Member",
         description: ``
     }
     

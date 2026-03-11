@@ -12,7 +12,7 @@ export default function HandbookContent() {
         <p>You can download the handbook below:</p>
 
         <div className={`center ${styles.downloadWrapper}`}>
-            <a href="https://drive.usercontent.google.com/u/0/uc?id=1yAMv-x5efXCV9tVisr_TAaupDjwy1gh4&export=download" target="_blank" className="main-cta">Download <InlineIcon icon="mdi:download"/> </a>
+            <a href="https://drive.usercontent.google.com/u/0/uc?id=1FxQL_ZA7p3TytN38-Ju-Zov_KaA0Q5zk&export=download" target="_blank" className="main-cta">Download <InlineIcon icon="mdi:download"/> </a>
         </div>
 
         <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className="shader"></div>

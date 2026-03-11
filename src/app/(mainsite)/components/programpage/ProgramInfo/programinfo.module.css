@@ -40,6 +40,10 @@
     line-height: 250%;
 }
 
+.bgimg{
+    object-position: top;
+}
+
 @media only screen and (min-width: 991px) and (max-width: 1400px){
     .programInfo p{
         margin-top: 1.5vw;

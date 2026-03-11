@@ -20,7 +20,7 @@ principles and on the Lord Jesus Christ.
         </p>
 
         <div style={{backgroundColor: "rgba(255,255,255,0.85)"}} className="shader"></div>
-        <Image className="bg-img" src="/img/group.webp" width={1280} height={720} alt="Image of community" />
+        <Image className={`bg-img ${styles.bgimg}`} src="/img/headerimg.webp" width={1280} height={720} alt="Image of community" />
     </section>
   )
 }
