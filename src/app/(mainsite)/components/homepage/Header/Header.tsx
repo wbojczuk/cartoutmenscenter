@@ -23,7 +23,7 @@ export default function Header() {
         
       <a href="#ourMission" className={styles.downArrow}></a>
 
-        <div className="shader" style={{backgroundColor: "rgba(0,0,0,0.7)"}}></div>
+        <div className="shader" style={{backgroundColor: "rgba(0,0,0,0.5)"}}></div>
         <Image className="bg-img" style={{objectPosition: "top"}} src="/img/headerimg.webp" width={1280} height={720} alt="Image of happy family" />
     </header>
   )
