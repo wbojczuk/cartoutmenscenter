@@ -12,7 +12,7 @@ export default function ApplicationContent() {
         <p>Download the form, fill it out, and send it to <a href="mailto:cartersvilleoutreachmenscenter@gmail.com">cartersvilleoutreachmenscenter@gmail.com</a></p>
 
         <div className={`center ${styles.downloadWrapper}`}>
-            <a href="https://drive.usercontent.google.com/u/0/uc?id=1YKppd89E7eWAZQwrz0hAjdIQ8lFu_VX7&export=download" target="_blank" className="main-cta">Download <InlineIcon icon="mdi:download"/> </a>
+            <a href="https://docs.google.com/document/d/1cklJzL4uRbYb7u8_DIkexBxZi3-qWaUU/edit?usp=sharing&ouid=101053347738054963581&rtpof=true&sd=true" target="_blank" className="main-cta">Download <InlineIcon icon="mdi:download"/> </a>
         </div>
 
         <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className="shader"></div>
